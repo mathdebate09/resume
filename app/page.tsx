@@ -18,7 +18,7 @@ export default function Resume() {
             </a>
           </div>
           <p className="text-sm text-gray-700 mb-4">Thane, Maharashtra 400605</p>
-          
+
           {/* Contact Info */}
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <a href="tel:+918928775989" className="flex items-center gap-1.5 text-gray-700 hover:text-black">
@@ -33,7 +33,7 @@ export default function Resume() {
               <Globe size={14} />
               <span>jayowiee.com</span>
             </a>
-            <a href="https://linkedin.com/in/jay-s-singh" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-gray-700 hover:text-black">
+            <a href="https://linkedin.com/in/jay-s-singh/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-gray-700 hover:text-black">
               <Image src="/linkedin.svg" alt="LinkedIn" width={14} height={14} />
               <span>in/jay-s-singh</span>
             </a>
@@ -74,7 +74,7 @@ export default function Resume() {
         {/* Experience */}
         <section className="mb-8">
           <h2 className="text-xl font-serif font-bold border-b border-gray-800 pb-1 mb-4">Experience</h2>
-          
+
           <div className="mb-6">
             <div className="flex justify-between items-start mb-1">
               <h3 className="font-bold">ThinkAct AI</h3>
@@ -83,42 +83,42 @@ export default function Resume() {
             <p className="text-sm italic text-gray-700 mb-3">Fullstack Engineer Intern <span className="float-right">Remote – New Jersey, United States</span></p>
             <ul className="text-sm space-y-1 ml-4">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Built role-based authentication using Auth0 with 10+ roles and custom per-role onboarding emails via SendGrid, cutting onboarding time by 60%.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Built role-based authentication using Auth0 with 10+ roles and custom per-role onboarding emails via SendGrid.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Implemented 8-language UI support improving customer retention by 35% alongside a WebSocket chat module with real-time translation synced across email.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Implemented 8-language UI support alongside a WebSocket chat module with real-time translation synced across email.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Built an internal note-taking tool with Python backend used in semantic search for LLM-based document retrieval.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Configured wildcard SAN SSL and EC2 for dynamic routing boosting client brand visibility, Dockerized the full stack (Next.js, Nest.JS, Django + Ollama) cutting deployment time by 30%.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Configured wildcard SAN SSL on EC2 for dynamic tenant domains boosting client brand visibility, Dockerized the full stack (Next.js, NestJS, Django + Ollama).</span>
               </li>
             </ul>
           </div>
 
           <div className="mb-6">
             <div className="flex justify-between items-start mb-1">
-              <h3 className="font-bold">Vighnotech Inc.</h3>
+              <h3 className="font-bold">Vighnotech</h3>
               <span className="text-sm whitespace-nowrap ml-4">Sept 2024 – Jan 2025</span>
             </div>
             <p className="text-sm italic text-gray-700 mb-3">React Native Intern <span className="float-right">On-Site – Mumbai, India</span></p>
             <ul className="text-sm space-y-1 ml-4">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Built a cross-platform Expo app from Figma designs with client-side PDF generation reducing server load by 60% with nightly builds for QA.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Built a cross-platform Expo app from Figma designs with client-side PDF generation reducing server load and generating nightly builds for QA.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Set up OAuth2 login with Gmail read access via OAuth2 scope and fetched SMS history via Android API.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Built a vendor CRM interface centralizing user-to-vendor data flow improving service fulfillment speed by 40%.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Built a vendor CRM interface centralizing user-to-vendor data flow and worked on a separate project for Inventory Management.</span>
               </li>
             </ul>
           </div>
@@ -131,12 +131,12 @@ export default function Resume() {
             <p className="text-sm italic text-gray-700 mb-3">Maintainer NativeFlow, Top Contributor at TheOdinProject</p>
             <ul className="text-sm space-y-1 ml-4">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Followed the standard open-source practice to ensure atomicity in commits/pull-requests corresponding to issues, thus tracking progress in building NativeFlow.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Followed the standard open-source practice to ensure atomicity in commits/pull-requests corresponding to issues, building a complete ecosystem of dev-tools instead of a standalone library.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Participated in Node:Levamp Project, while in parallel I also updated resources, project requirements and database issues on the TheOdinProject Website.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Participated in Node:Revamp Project, while in parallel I also updated resources, project requirements and database issues on the TheOdinProject Website.</span>
               </li>
             </ul>
           </div>
@@ -145,7 +145,7 @@ export default function Resume() {
         {/* Projects */}
         <section className="mb-8">
           <h2 className="text-xl font-serif font-bold border-b border-gray-800 pb-1 mb-4">Projects</h2>
-          
+
           <div className="mb-5">
             <div className="flex justify-between items-start">
               <div>
@@ -153,20 +153,20 @@ export default function Resume() {
                 <p className="text-sm text-gray-600">TypeScript, GitHub Actions, Docusaurus, React, Markdown, RTL, NPM</p>
               </div>
               <div className="text-right text-sm">
-                <a href="#" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="#" className="text-blue-600 hover:underline">Docs</a>
+                <a href="https://github.com/nativeflowteam/nativeflowcss" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://nativeflow.js.org" className="text-blue-600 hover:underline">Docs</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Developed a utility-first styling library for React Native, enabling Tailwind-like styling but using objects.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
-                <span>Wrote Docusaurus (.md to .tsx parsing) documentation with live Expo examples on a js.org approved domain.</span>
+                <span className="text-gray-600 shrink-0">–</span>
+                <span>Wrote Docusaurus documentation with live Expo examples and made a VS Code Intellisense extension for dev-exp.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Benchmarked as the second-fastest styling library, only 8% slower than the native StyleSheet API.</span>
               </li>
             </ul>
@@ -179,20 +179,20 @@ export default function Resume() {
                 <p className="text-sm text-gray-600">React Native, TypeScript, GitHub Actions, Solana, Phantom/Tiplink Wallets, Gemini, Figma</p>
               </div>
               <div className="text-right text-sm">
-                <a href="#" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="#" className="text-blue-600 hover:underline">Demo</a>
+                <a href="https://github.com/SICK-Solana" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://youtu.be/m-T75VVZ3l4?si=XOlO8dCldRJGknNT" className="text-blue-600 hover:underline">Demo</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Built a decentralized crypto investment app with copy trading, Phantom wallet and TipLink for wallet-less onboarding.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Used CoinGecko and Jup.ag for live pricing with Gemini-based market analysis and a creator loyalty reward system.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Awarded a monetary grant from CoinDCX India via Superteam for onboarding 1000+ users on Web3.</span>
               </li>
             </ul>
@@ -205,20 +205,20 @@ export default function Resume() {
                 <p className="text-sm text-gray-600">React Native, Expo, TypeScript, Helius RPC, Figma</p>
               </div>
               <div className="text-right text-sm">
-                <a href="#" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="#" className="text-blue-600 hover:underline">Demo</a>
+                <a href="https://github.com/mathdebate09/believescreener" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://www.veed.io/view/e378e461-80bf-4fee-b0fe-a52577a5f72f?panel=share" className="text-blue-600 hover:underline">Demo</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Built real-time token price updates via Helius RPC WebSocket API.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Made a Believe Portfolio feature that filters user tokens with a custom brand identity and mascot inspired by believe.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Extended believe.fun&apos;s web functionality into a mobile app while keeping the UX as close to original version.</span>
               </li>
             </ul>
@@ -231,16 +231,16 @@ export default function Resume() {
                 <p className="text-sm text-gray-600">JavaScript, jQuery, HTML, CSS</p>
               </div>
               <div className="text-right text-sm">
-                <a href="#" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="#" className="text-blue-600 hover:underline">Live</a>
+                <a href="https://github.com/mathdebate09/fill-my-cycle" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://fill-my-cycle.netlify.app/" className="text-blue-600 hover:underline">Live</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Developed a lab evaluation calculator that auto-generates annual cycle entries for students.</span>
               </li>
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>Achieved 500+ daily visits during semester peaks via SEO optimization.</span>
               </li>
             </ul>
@@ -250,7 +250,7 @@ export default function Resume() {
         {/* Extracurricular */}
         <section>
           <h2 className="text-xl font-serif font-bold border-b border-gray-800 pb-1 mb-4">Extracurricular</h2>
-          
+
           <div>
             <div className="flex justify-between items-start mb-1">
               <h3 className="font-bold">Tech Writing</h3>
@@ -259,12 +259,12 @@ export default function Resume() {
             <p className="text-sm italic text-gray-700 mb-3">Author of technical guides and documentation <span className="float-right">Online</span></p>
             <ul className="text-sm space-y-1 ml-4">
               <li className="flex gap-3">
-                <span className="text-gray-600 flex-shrink-0">–</span>
+                <span className="text-gray-600 shrink-0">–</span>
                 <span>
                   Published articles on SEO-friendly HTML metadata and UI styling on{' '}
-                  <a href="#" className="text-blue-600 hover:underline">dev.to</a>,{' '}
-                  <a href="#" className="text-blue-600 hover:underline">Medium</a>, and{' '}
-                  <a href="#" className="text-blue-600 hover:underline">HackerNoon</a>.
+                  <a href="https://dev.to/mathdebate09" className="text-blue-600 hover:underline">dev.to</a>,{' '}
+                  <a href="https://medium.com/mathdebate09" className="text-blue-600 hover:underline">Medium</a>, and{' '}
+                  <a href="https://hackernoon.com/u/jayowiee" className="text-blue-600 hover:underline">HackerNoon</a>.
                 </span>
               </li>
             </ul>
