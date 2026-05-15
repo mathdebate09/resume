@@ -80,7 +80,7 @@ export default function Resume() {
               <h3 className="font-bold">ThinkAct AI</h3>
               <span className="text-sm whitespace-nowrap ml-4">July 2025 – Jan 2026</span>
             </div>
-            <p className="text-sm italic text-gray-700 mb-3">Fullstack Engineer Intern <span className="float-right">Remote – New Jersey, United States</span></p>
+            <p className="text-sm italic text-gray-700 mb-3">Fullstack Engineer Intern <span className="float-right">Remote – New Jersey, USA</span></p>
             <ul className="text-sm space-y-1 ml-4">
               <li className="flex gap-3">
                 <span className="text-gray-600 shrink-0">–</span>
