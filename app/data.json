@@ -1,0 +1,215 @@
+{
+    "header": {
+        "name": "Jay Singh",
+        "location": "Thane, Maharashtra 400605",
+        "download": {
+            "href": "/jay-singh-resume.pdf",
+            "filename": "jay-singh-resume.pdf"
+        },
+        "contacts": [
+            {
+                "label": "8928775989",
+                "href": "tel:+918928775989",
+                "icon": "phone"
+            },
+            {
+                "label": "work.jayssingh@gmail.com",
+                "href": "mailto:work.jayssingh@gmail.com",
+                "icon": "mail"
+            },
+            {
+                "label": "jayowiee.com",
+                "href": "https://jayowiee.com",
+                "icon": "globe",
+                "external": true
+            },
+            {
+                "label": "in/jay-s-singh",
+                "href": "https://linkedin.com/in/jay-s-singh/",
+                "image": {
+                    "src": "/linkedin.svg",
+                    "alt": "LinkedIn"
+                },
+                "external": true
+            },
+            {
+                "label": "mathdebate09",
+                "href": "https://github.com/mathdebate09",
+                "image": {
+                    "src": "/github.svg",
+                    "alt": "GitHub"
+                },
+                "external": true
+            }
+        ]
+    },
+    "education": [
+        {
+            "school": "Thakur College of Engineering and Technology",
+            "degree": "Bachelor of Engineering in Information Technology",
+            "dates": "Aug. 2023 – Present",
+            "detail": "CGPA - 9.25"
+        }
+    ],
+    "skills": [
+        {
+            "label": "Languages",
+            "value": "Javascript, C++, Python, SQL — HTML, CSS, YAML, Markdown"
+        },
+        {
+            "label": "Developer Tools",
+            "value": "Figma, VS Code, Git, Android Studio, Docker, AWS"
+        },
+        {
+            "label": "Databases",
+            "value": "MongoDB, PostgreSQL, Redis, MariaDB"
+        },
+        {
+            "label": "Technologies/Frameworks",
+            "value": "Next.JS, Node.js, Nest.JS, Expo, Docusaurus, Auth0, GitHub Actions"
+        },
+        {
+            "label": "Coursework",
+            "value": "Computer Networks & Architecture, Operating Systems, Database Management, Data Structures"
+        }
+    ],
+    "experience": [
+        {
+            "company": "ThinkAct AI",
+            "role": "Fullstack Engineer Intern",
+            "location": "Remote – New Jersey, USA",
+            "dates": "July 2025 – Jan 2026",
+            "highlights": [
+                "Built role-based authentication using Auth0 with 10+ roles and custom per-role onboarding emails via SendGrid.",
+                "Implemented 8-language UI support alongside a WebSocket chat module with real-time translation synced across email.",
+                "Built an internal note-taking tool with Python backend used in semantic search for LLM-based document retrieval.",
+                "Configured wildcard SAN SSL on EC2 for dynamic tenant domains boosting client brand visibility, Dockerized the full stack (Next.js, NestJS, Django + Ollama)."
+            ]
+        },
+        {
+            "company": "Vighnotech",
+            "role": "React Native Intern",
+            "location": "On-Site – Mumbai, India",
+            "dates": "Sept 2024 – Jan 2025",
+            "highlights": [
+                "Built a cross-platform Expo app from Figma designs with client-side PDF generation reducing server load and generating nightly builds for QA.",
+                "Set up OAuth2 login with Gmail read access via OAuth2 scope and fetched SMS history via Android API.",
+                "Built a vendor CRM interface centralizing user-to-vendor data flow and worked on a separate project for Inventory Management."
+            ]
+        },
+        {
+            "company": "Open Source",
+            "role": "Maintainer NativeFlow, Top Contributor at TheOdinProject",
+            "dates": "April 2024 – Present",
+            "highlights": [
+                "Followed the standard open-source practice to ensure atomicity in commits/pull-requests corresponding to issues, building a complete ecosystem of dev-tools instead of a standalone library.",
+                "Participated in Node:Revamp Project, while in parallel I also updated resources, project requirements and database issues on the TheOdinProject Website."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "NativeFlow",
+            "tech": "TypeScript, GitHub Actions, Docusaurus, React, Markdown, RTL, NPM",
+            "links": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/nativeflowteam/nativeflowcss"
+                },
+                {
+                    "label": "Docs",
+                    "href": "https://nativeflow.js.org"
+                }
+            ],
+            "highlights": [
+                "Developed a utility-first styling library for React Native, enabling Tailwind-like styling but using objects.",
+                "Wrote Docusaurus documentation with live Expo examples and made a VS Code Intellisense extension for dev-exp.",
+                "Benchmarked as the second-fastest styling library, only 8% slower than the native StyleSheet API."
+            ]
+        },
+        {
+            "name": "SICK",
+            "tech": "React Native, TypeScript, GitHub Actions, Solana, Phantom/Tiplink Wallets, Gemini, Figma",
+            "links": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/SICK-Solana"
+                },
+                {
+                    "label": "Demo",
+                    "href": "https://youtu.be/m-T75VVZ3l4?si=XOlO8dCldRJGknNT"
+                }
+            ],
+            "highlights": [
+                "Built a decentralized crypto investment app with copy trading, Phantom wallet and TipLink for wallet-less onboarding.",
+                "Used CoinGecko and Jup.ag for live pricing with Gemini-based market analysis and a creator loyalty reward system.",
+                "Awarded a monetary grant from CoinDCX India via Superteam for onboarding 1000+ users on Web3."
+            ]
+        },
+        {
+            "name": "BelieveScreener",
+            "tech": "React Native, Expo, TypeScript, Helius RPC, Figma",
+            "links": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/mathdebate09/believescreener"
+                },
+                {
+                    "label": "Demo",
+                    "href": "https://www.veed.io/view/e378e461-80bf-4fee-b0fe-a52577a5f72f?panel=share"
+                }
+            ],
+            "highlights": [
+                "Built real-time token price updates via Helius RPC WebSocket API.",
+                "Made a Believe Portfolio feature that filters user tokens with a custom brand identity and mascot inspired by believe.",
+                "Extended believe.fun's web functionality into a mobile app while keeping the UX as close to original version."
+            ]
+        },
+        {
+            "name": "Fill My Cycle",
+            "tech": "JavaScript, jQuery, HTML, CSS",
+            "links": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/mathdebate09/fill-my-cycle"
+                },
+                {
+                    "label": "Live",
+                    "href": "https://fill-my-cycle.netlify.app/"
+                }
+            ],
+            "highlights": [
+                "Developed a lab evaluation calculator that auto-generates annual cycle entries for students.",
+                "Achieved 500+ daily visits during semester peaks via SEO optimization."
+            ]
+        }
+    ],
+    "extracurricular": [
+        {
+            "title": "Tech Writing",
+            "dates": "May 2024 – Present",
+            "role": "Author of technical guides and documentation",
+            "location": "Online",
+            "highlights": [
+                {
+                    "text": "Published articles on SEO-friendly HTML metadata and UI styling on ",
+                    "links": [
+                        {
+                            "label": "dev.to",
+                            "href": "https://dev.to/mathdebate09"
+                        },
+                        {
+                            "label": "Medium",
+                            "href": "https://medium.com/mathdebate09"
+                        },
+                        {
+                            "label": "HackerNoon",
+                            "href": "https://hackernoon.com/u/jayowiee"
+                        }
+                    ],
+                    "suffix": "."
+                }
+            ]
+        }
+    ]
+}
