@@ -152,8 +152,10 @@ export default function Resume() {
                 <h3 className="font-bold">NativeFlow</h3>
                 <p className="text-sm text-gray-600">TypeScript, GitHub Actions, Docusaurus, React, Markdown, RTL, NPM</p>
               </div>
-              <div className="text-right text-sm">
-                <a href="https://github.com/nativeflowteam/nativeflowcss" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://nativeflow.js.org" className="text-blue-600 hover:underline">Docs</a>
+              <div className="text-right text-[13px] sm:text-sm flex items-center justify-end gap-2 whitespace-nowrap">
+                <a href="https://github.com/nativeflowteam/nativeflowcss" className="text-blue-600 hover:underline">GitHub</a>
+                <span className="text-gray-400">|</span>
+                <a href="https://nativeflow.js.org" className="text-blue-600 hover:underline">Docs</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
@@ -178,8 +180,10 @@ export default function Resume() {
                 <h3 className="font-bold">SICK</h3>
                 <p className="text-sm text-gray-600">React Native, TypeScript, GitHub Actions, Solana, Phantom/Tiplink Wallets, Gemini, Figma</p>
               </div>
-              <div className="text-right text-sm">
-                <a href="https://github.com/SICK-Solana" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://youtu.be/m-T75VVZ3l4?si=XOlO8dCldRJGknNT" className="text-blue-600 hover:underline">Demo</a>
+              <div className="text-right text-[13px] sm:text-sm flex items-center justify-end gap-2 whitespace-nowrap">
+                <a href="https://github.com/SICK-Solana" className="text-blue-600 hover:underline">GitHub</a>
+                <span className="text-gray-400">|</span>
+                <a href="https://youtu.be/m-T75VVZ3l4?si=XOlO8dCldRJGknNT" className="text-blue-600 hover:underline">Demo</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
@@ -204,8 +208,10 @@ export default function Resume() {
                 <h3 className="font-bold">BelieveScreener</h3>
                 <p className="text-sm text-gray-600">React Native, Expo, TypeScript, Helius RPC, Figma</p>
               </div>
-              <div className="text-right text-sm">
-                <a href="https://github.com/mathdebate09/believescreener" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://www.veed.io/view/e378e461-80bf-4fee-b0fe-a52577a5f72f?panel=share" className="text-blue-600 hover:underline">Demo</a>
+              <div className="text-right text-[13px] sm:text-sm flex items-center justify-end gap-2 whitespace-nowrap">
+                <a href="https://github.com/mathdebate09/believescreener" className="text-blue-600 hover:underline">GitHub</a>
+                <span className="text-gray-400">|</span>
+                <a href="https://www.veed.io/view/e378e461-80bf-4fee-b0fe-a52577a5f72f?panel=share" className="text-blue-600 hover:underline">Demo</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
@@ -230,8 +236,10 @@ export default function Resume() {
                 <h3 className="font-bold">Fill My Cycle</h3>
                 <p className="text-sm text-gray-600">JavaScript, jQuery, HTML, CSS</p>
               </div>
-              <div className="text-right text-sm">
-                <a href="https://github.com/mathdebate09/fill-my-cycle" className="text-blue-600 hover:underline">GitHub</a> <span className="text-gray-400">|</span> <a href="https://fill-my-cycle.netlify.app/" className="text-blue-600 hover:underline">Live</a>
+              <div className="text-right text-[13px] sm:text-sm flex items-center justify-end gap-2 whitespace-nowrap">
+                <a href="https://github.com/mathdebate09/fill-my-cycle" className="text-blue-600 hover:underline">GitHub</a>
+                <span className="text-gray-400">|</span>
+                <a href="https://fill-my-cycle.netlify.app/" className="text-blue-600 hover:underline">Live</a>
               </div>
             </div>
             <ul className="text-sm space-y-1 ml-4 mt-2">
