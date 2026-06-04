@@ -80,10 +80,9 @@
             "location": "Remote – New Jersey, USA",
             "dates": "July 2025 – Jan 2026",
             "highlights": [
-                "Built role-based authentication using Auth0 with 10+ roles and custom per-role onboarding emails via SendGrid.",
-                "Implemented 8-language UI support alongside a WebSocket chat module with real-time translation synced across email.",
-                "Built an internal note-taking tool with Python backend used in semantic search for LLM-based document retrieval.",
-                "Configured wildcard SAN SSL on EC2 for dynamic tenant domains boosting client brand visibility, Dockerized the full stack (Next.js, NestJS, Django + Ollama)."
+                "Built role-based authentication using Auth0 with 10+ roles and custom per-role onboarding emails via SendGrid, as part of a Mortgage Intelligence Platform serving multiple tenants.",
+                "Configured wildcard SAN SSL on EC2 for dynamic tenant domains, Dockerized the project (Next.js, NestJS, Django + Ollama), with an internal note-taking tool which supports semantic search for LLM-based document retrieval.",
+                "Implemented 8-language UI support alongside a WebSocket chat module with real-time translation synced across email."
             ]
         },
         {
@@ -92,9 +91,8 @@
             "location": "On-Site – Mumbai, India",
             "dates": "Sept 2024 – Jan 2025",
             "highlights": [
-                "Built a cross-platform Expo app from Figma designs with client-side PDF generation reducing server load and generating nightly builds for QA.",
-                "Set up OAuth2 login with Gmail read access via OAuth2 scope and fetched SMS history via Android API.",
-                "Built a vendor CRM interface centralizing user-to-vendor data flow and worked on a separate project for Inventory Management."
+                "Built an Android fintech app in Expo from Figma designs, setting up OAuth2 Gmail access and SMS history via Android API to aggregate user financial data into a vendor CRM interface.",
+                "Implemented client-side PDF generation for the CRM and Inventory Management module reducing server load, configured nightly builds for QA."
             ]
         },
         {
@@ -102,8 +100,8 @@
             "role": "Maintainer NativeFlow, Top Contributor at TheOdinProject",
             "dates": "April 2024 – Present",
             "highlights": [
-                "Followed the standard open-source practice to ensure atomicity in commits/pull-requests corresponding to issues, building a complete ecosystem of dev-tools instead of a standalone library.",
-                "Participated in Node:Revamp Project, while in parallel I also updated resources, project requirements and database issues on the TheOdinProject Website."
+                "Followed the standard open-source practice to ensure atomicity in commits/pull-requests corresponding to issues, building a complete ecosystem of dev-tools which support the core library.",
+                "Participated in Node:Revamp Project, with most of the work being discussion-heavy around language design rather than writing code and fixing backend issues on the TheOdinProject Website."
             ]
         }
     ],
@@ -122,7 +120,7 @@
                 }
             ],
             "highlights": [
-                "Developed a utility-first styling library for React Native, enabling Tailwind-like styling but using objects.",
+                "An utility-first styling library for React Native, enabling Tailwind-like styling but using objects.",
                 "Wrote Docusaurus documentation with live Expo examples and made a VS Code Intellisense extension for dev-exp.",
                 "Benchmarked as the second-fastest styling library, only 8% slower than the native StyleSheet API."
             ]
@@ -141,28 +139,28 @@
                 }
             ],
             "highlights": [
-                "Built a decentralized crypto investment app with copy trading, Phantom wallet and TipLink for wallet-less onboarding.",
+                "A decentralized crypto investment app with copy trading, TipLink for wallet-less onboarding.",
                 "Used CoinGecko and Jup.ag for live pricing with Gemini-based market analysis and a creator loyalty reward system.",
-                "Awarded a monetary grant from CoinDCX India via Superteam for onboarding 1000+ users on Web3."
+                "Awarded a monetary grant of 5k USD from CoinDCX/India via Superteam for onboarding 1000+ users on Web3."
             ]
         },
         {
-            "name": "BelieveScreener",
-            "tech": "React Native, Expo, TypeScript, Helius RPC, Figma",
+            "name": "binqr",
+            "tech": "Flutter, Dart, Vite, Figma, QR Encoding, MD5 Checksum",
             "links": [
                 {
                     "label": "GitHub",
-                    "href": "https://github.com/mathdebate09/believescreener"
+                    "href": "https://github.com/mathdebate09/binqr"
                 },
                 {
-                    "label": "Demo",
-                    "href": "https://www.veed.io/view/e378e461-80bf-4fee-b0fe-a52577a5f72f?panel=share"
+                    "label": "Live",
+                    "href": "https://binqr.jayowiee.com/"
                 }
             ],
             "highlights": [
-                "Built real-time token price updates via Helius RPC WebSocket API.",
-                "Made a Believe Portfolio feature that filters user tokens with a custom brand identity and mascot inspired by believe.",
-                "Extended believe.fun's web functionality into a mobile app while keeping the UX as close to original version."
+                "Connection-free file transfer for android and desktop using QR codes as a medium.",
+                "Chunked files into 800-byte MD5-verified QR payloads flashed at 10 QR/sec with auto-retry on bad scans.",
+                "Built a matching Web UI which only supports Send functionality with cross-device support."
             ]
         },
         {
@@ -179,7 +177,7 @@
                 }
             ],
             "highlights": [
-                "Developed a lab evaluation calculator that auto-generates annual cycle entries for students.",
+                "An open sourced lab evaluation calculator that auto-generates annual cycle entries for submissions.",
                 "Achieved 500+ daily visits during semester peaks via SEO optimization."
             ]
         }
